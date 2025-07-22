@@ -1,16 +1,19 @@
-# incubyte
+# String Calculator (TDD Assessment - Incubyte)
 
-A new Flutter project.
+This is a solution to the TDD Assessment using Dart. It follows the Red-Green-Refactor cycle of TDD.
 
-## Getting Started
+## ✅ Features Implemented
 
-This project is a starting point for a Flutter application.
+- Empty string → 0
+- Comma-separated input
+- Newline as delimiter
+- Custom single-char delimiter
+- Exception for negative numbers
+- Multiple negatives in error message
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Running the Project
+- flutter test
+### Install Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-bash
+dart pub get
